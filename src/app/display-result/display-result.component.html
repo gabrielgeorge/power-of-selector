@@ -1,0 +1,6 @@
+<div *ngIf="results?.length" class="pt-2">
+  <strong>Result</strong>
+  <ul>
+    <li *ngFor="let result of results">{{ result }}ms</li>
+  </ul>
+</div>
